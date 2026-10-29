@@ -1,0 +1,29 @@
+name: infracheck_modules
+description: >-
+  Módulos Flutter compartilhados do ecossistema InfraCheck: tema (tokens do design system),
+  modelos de contrato da API, cliente HTTP e widgets de status. Consumido pelo app do inspetor
+  (mobile) e pelo painel de gestão (web).
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  http_parser: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/logos/
+    - assets/patterns/

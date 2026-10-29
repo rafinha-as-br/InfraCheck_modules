@@ -22,3 +22,7 @@ Ainda não há tecnologia, estrutura de pacotes, consumidores, API pública ou c
 - documente decisões de tecnologia e compatibilidade quando elas forem tomadas.
 
 Dados como fotos, localização, assinaturas e informações de clientes devem manter o mesmo cuidado de privacidade aplicado em todo o produto.
+
+## Estado atual (protótipo do MVP)
+
+A tecnologia definida é **Dart/Flutter** (pacote `infracheck_modules`), consumido por caminho relativo pelos dois apps. Contém tema/tokens do design system, modelos e cliente do contrato da API e widgets de status — somente o que os dois apps já usam. Ver `README.md` e `docs/overview.md`. Versionamento do pacote e consumo fora do workspace (dependência Git) ainda não definidos.
